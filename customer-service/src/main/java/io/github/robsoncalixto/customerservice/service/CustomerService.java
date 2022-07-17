@@ -18,7 +18,7 @@ public class CustomerService {
 
     @Transactional
     public Customer save(Customer customer){
-        return customerRep.save(customer);
+         return customerRep.save(customer);
     }
 
     public Optional<Customer> getByCPF(String cpf){
